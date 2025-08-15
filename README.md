@@ -9,7 +9,9 @@ O objetivo deste desafio foi aplicar os conceitos aprendidos sobre a criação d
 A primeira etapa do processo consistiu em configurar o ambiente no portal do Azure para criação da máquina virtual. Utilizando o Portal do Azure, segui o tutorial para criar uma máquina virtual com o sistema operacional Windows Server. Os principais parâmetros que configurei foram:
 
 Imagem do sistema operacional: Escolhi a versão do Windows Server 2019, pois é amplamente utilizado em ambientes corporativos e possui compatibilidade com diversas aplicações.
+
 Tamanho da máquina virtual: Para o exercício, selecionei a opção Standard B1s, que é uma configuração básica e mais econômica, adequada para ambientes de teste.
+
 Configuração de rede: Criei uma rede virtual (VNet) para garantir que a máquina virtual fosse provisionada de maneira segura e conectada corretamente à internet e a outros recursos.
 
 2. Criação e Configuração da Máquina Virtual
@@ -17,7 +19,9 @@ Configuração de rede: Criei uma rede virtual (VNet) para garantir que a máqui
 Ao seguir os passos do tutorial, configurei os parâmetros necessários para a criação da máquina virtual. Esses passos incluíram:
 
 Configuração de disco: Escolhi um disco padrão SSD para garantir um bom desempenho de leitura e gravação na máquina virtual.
+
 Ajuste de segurança: Apliquei regras de firewall para permitir acesso remoto via RDP (Remote Desktop Protocol), garantindo que eu pudesse acessar a máquina virtual de forma segura e remota.
+
 Criação do usuário administrador: Defini um nome de usuário e senha para gerenciar a máquina virtual, garantindo a segurança do ambiente.
 
 3. Acesso e Teste da Máquina Virtual
